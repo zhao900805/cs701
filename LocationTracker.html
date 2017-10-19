@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+	          margin: 5px;
+	          width: 500px;
+	          height: 500px;
+	          border: 2px solid black;
+      }
+      body {
+	        background-color:#CCCCCC;
+	        font-family:Geneva,Arial,Helvetica,sans-serif;
+          margin: 0px auto;
+	        max-width:800px;
+	        border:solid;
+	        border-color:#FFFFFF;
+      }
+      #status {
+	        border-radius: 10px;
+	        border:solid 2px black;
+	        padding: 5px;
+	
+      }
+    </style>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="LocationTracker.js">  </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8vc5QBEcr4a4oRKq5CkCWYczCbImTkSc&callback=initMap">
+    </script>
+  </head>
+  <body>
+    <h3>Location Tracker</h3>
+    <button id="checkButton" class="btn btn-primary btn-lg">Get Location</button>
+    <hr />
+    <div id="status">
+        Update#:<span id="counter"></span><br/>
+        Start Latitude:<span id="startLatitude"></span><br/>
+        Start Longitude:<span id="startLongitude"></span><br/>
+        Current Latitude:<span id="currentLatitude"></span><br/>
+        Current Longitude:<span id="currentLongitude"></span>
+    </div>
+    <hr />
+    <div id="map"></div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<senators>
+    <senator>
+        <name>Barbara Boxer</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Diane Feinstein</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Patrick Leahy</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Chunk Schumer</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Elizabeth Warren</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Lamar Alexander</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Kelly Ayotte</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Susan Collins</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>Orrin Hatch</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+
+    <senator>
+        <name>John McCainss</name>
+        <party></party>
+        <voted>false</voted>
+    </senator>
+</senators>
